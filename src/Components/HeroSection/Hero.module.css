@@ -1,0 +1,45 @@
+.heroContainer{
+    width: 100%;
+}
+.hero{
+    max-width: 1080px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heroTitle h1{
+    font-size: 5.2rem;
+    margin-bottom: 3.2rem;
+    color: rgb(70, 70, 70);
+}
+.heroTitle p{
+    font-size: 2.4rem;
+    margin-bottom: 3.2rem;
+    color: #969696;
+}
+.heroTitle button{
+    background-color: #FF8F8F;
+    color: rgb(255, 255, 255);
+    padding: 1rem 4.8rem;
+    border: none;
+    outline: none;
+    border-radius: 10rem;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.heroTitle img{
+    width: 5.6rem;
+}
+
+.imageContainer{
+    width: 50%;
+    max-width: 450px;
+}
+.imageContainer img{
+    width: 100%;
+    height: auto;
+}
